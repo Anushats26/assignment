@@ -15,7 +15,7 @@ import { CommonService } from 'src/app/service/common.service';
 })
 export class UsersComponent implements OnInit {
 
-  displayedColumns: string[] = ['id', 'name', 'phone', 'street', 'city', 'state', 'country', 'postal_code'];
+  displayedColumns: string[] = ['id', 'name', 'phone', 'street', 'city', 'state', 'country', 'postal_code', 'created_at'];
   dataSource;
   UserList: any = [];
 
